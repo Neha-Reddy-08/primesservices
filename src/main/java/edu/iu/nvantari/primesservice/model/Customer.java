@@ -1,5 +1,5 @@
 package edu.iu.nvantari.primesservice.model;
-
+//
 public class Customer {
     private String username;
     private String password;
