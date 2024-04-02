@@ -30,7 +30,7 @@ public class AuthenticationController {
         System.out.println("hii");
     }
     @PostMapping("/register")
-    public boolean register(@RequestBody Customer customer) {
+    public Customer register(@RequestBody Customer customer) {
         try {
             System.out.println("register");
             return authenticationService.register(customer);
