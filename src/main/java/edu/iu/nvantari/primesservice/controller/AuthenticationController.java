@@ -18,6 +18,7 @@ import java.io.IOException;
 
 
 @RestController
+@CrossOrigin({"http://127.0.0.1:5501"})
 public class AuthenticationController {
     private  IAuthenticationService authenticationService;
     private  AuthenticationManager authenticationManager;
