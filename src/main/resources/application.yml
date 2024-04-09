@@ -16,5 +16,11 @@ spring:
     init:
       mode: always
 
+  rabbit-mq:
+    host: localhost
+    port: 4046
+    username: guest
+    password: guest
+
 server:
   port: 8085
