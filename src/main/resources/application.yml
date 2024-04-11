@@ -18,7 +18,7 @@ spring:
 
   rabbit-mq:
     host: localhost
-    port: 4046
+    port: 4006
     username: guest
     password: guest
 
